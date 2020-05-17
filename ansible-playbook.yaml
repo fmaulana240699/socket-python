@@ -3,4 +3,4 @@
   tasks:
     - name: nyobain
       shell: | 
-        kubectl get cluster-info
+        kubectl cluster-info
