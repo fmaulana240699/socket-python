@@ -2,6 +2,6 @@
   user: ec2-user
   tasks:
     - name: build from yaml 
-      k8s:
+      k8s_raw:
         state: present
         src: kustomization.yaml
