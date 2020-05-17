@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: socket-service-py
+spec:
+  selector:
+    matchLabels:
+      app: socket-fajar-python
+   type: nodePort
+   ports:
+     - targetPort: 2499
+       port: 2499
+       nodePort: 30080

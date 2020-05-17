@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: socket-python-fajar
+  labels:
+    app: socket-fajar
+spec:
+  selector:
+    matchLabels:
+      app: socket-fajar
+  template:
+    metadata:
+      name: socket-python-fajar
+      labels:
+        app: socket-fajar
+    spec:
+      containers:
+      - name: socket-python-fajar
+        image: fmaulana24/socket
+        ports:
+        - containerPort: 2499
+
