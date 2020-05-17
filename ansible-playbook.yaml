@@ -3,4 +3,5 @@
   tasks:
     - name: nyobain
       shell: | 
+        hostname
         kubectl cluster-info
