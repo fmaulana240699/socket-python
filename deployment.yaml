@@ -16,7 +16,9 @@ spec:
     spec:
       containers:
       - name: socket-python-fajar
-        image: fmaulana24/socket:2
+        image: fmaulana24/socket:latest
+        imagePullPolicy: "Always"
         ports:
         - containerPort: 2499
+
 
