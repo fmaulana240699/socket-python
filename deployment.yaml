@@ -12,11 +12,11 @@ spec:
     metadata:
       name: socket-fajar-python
       labels:
-        app: socket-fajar
+        app: socket-fajar-python
     spec:
       containers:
       - name: socket-python-fajar
-        image: fmaulana24/socket:latest
+        image: fmaulana24/socket:2
         ports:
         - containerPort: 2499
 

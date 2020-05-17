@@ -1,7 +1,7 @@
 #socket server
 import socket
 
-HOST='127.0.0.1'
+HOST=socket.gethostbyname(socket.gethostname())
 PORT=2499
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
