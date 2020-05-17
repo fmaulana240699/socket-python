@@ -4,7 +4,6 @@ metadata:
   name: socket-service-py
 spec:
   selector:
-    matchLabels:
       app: socket-fajar-python
    type: nodePort
    ports:

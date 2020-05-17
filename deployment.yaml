@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: socket-python-fajar
+  name: socket-fajar-python
   labels:
-    app: socket-fajar
+    app: socket-fajar-python
 spec:
   selector:
     matchLabels:
-      app: socket-fajar
+      app: socket-fajar-python
   template:
     metadata:
-      name: socket-python-fajar
+      name: socket-fajar-python
       labels:
         app: socket-fajar
     spec:
