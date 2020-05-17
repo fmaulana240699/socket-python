@@ -2,5 +2,5 @@
   user: ec2-user
   tasks:
     - name: nyobain
-      shell:
-        - kubectl get cluster-info
+      shell: | 
+        kubectl get cluster-info
