@@ -6,3 +6,4 @@
         git clone https://github.com/fmaulana240699/socket-python.git
         cd socket-python
         kubectl create -f kustomization.yaml
+        rm -rf socket-python
