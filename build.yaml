@@ -3,4 +3,5 @@
   tasks:
     - name: build from yaml 
       shell: |
+        git clone https://github.com/fmaulana240699/socket-python.git
         kubectl create -f kustomization.yaml
