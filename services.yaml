@@ -9,4 +9,3 @@ spec:
   ports:
     - targetPort: 2499
       port: 2499
-      nodePort: 30080
