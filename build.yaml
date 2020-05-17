@@ -6,5 +6,4 @@
         git clone https://github.com/fmaulana240699/socket-python.git
         cd socket-python
         kubectl create -f deployment.yaml
-        kubectl create -f services.yaml
-        rm -rf socket-python
+        kubectl create -f services.yaml && rm -rf socket-python

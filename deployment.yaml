@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: socket-python-fajar
-        image: fmaulana24/socket
+        image: fmaulana24/socket:latest
         ports:
         - containerPort: 2499
 
