@@ -11,7 +11,7 @@ server.listen(5)
 # socket.SOCK_STREAM menggunakan protocol tcp
 # server.bind untuk binding on hostname/ip:port
 # server.listen(5) connection/5 user
-#test edit
+#test ediit lagi
 
 
 while True:
